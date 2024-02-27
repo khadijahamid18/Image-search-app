@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Image Search app</h1>
+    <form>
+        <input type="text" id="myInput" placeholder="Search for Images" > 
+        <button id="btn">Search</button>
+    </form>
+
+    <div id="search">
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1682686581580-d99b0230064e?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="Mountains under the sky">
+            <a href="https://unsplash.com/photos/x-F7S_lqN2U" target="_blank">Mountains under the sky
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1688655046171-286a6025377a?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Sunset">
+            <a href="https://unsplash.com/photos/a-beautiful-sunset-over-a-body-of-water-ym3PWPfJIRw"
+                target="_blank">Sunset
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1687363481609-9b64ef9644b0?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt="River running through valley">
+            <a href="https://unsplash.com/photos/an-aerial-view-of-a-river-running-through-a-valley-vqQu7rwszO0"
+                target="_blank">River running through valley
+            </a>
+        </div>
+    </div>
+
+    <!-- <div id="search">
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1689089764982-3c081cc0089a?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=986&q=80"
+                alt="Women standing in front of waterfall">
+            <a href="https://unsplash.com/photos/a-woman-standing-in-front-of-a-waterfall-1cGZZ0JzG7o"
+                target="_blank">Women standing in front of waterfall
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Studing">
+            <a href="https://unsplash.com/photos/lsdA8QpWN_A" target="_blank">Studing
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1674574124345-02c525664b65?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Komen Day">
+            <a href="https://unsplash.com/photos/qfWMUXDcN18" target="_blank">Komen Day
+            </a>
+        </div>
+    </div>
+
+    <div id="search">
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1689039993843-7b1aaf1f2e57?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="Mountains surrounded by trees">
+            <a href="https://unsplash.com/photos/a-lake-surrounded-by-trees-with-a-mountain-in-the-background-l2oxZcanLAw"
+                target="_blank">Mountains surrounded by trees
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1676532223498-0164d21f1b71?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80" alt="Car">
+            <a href="https://unsplash.com/photos/PSn57PpKvnA" target="_blank">Car
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1689028217477-9ac0a7f83622?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="White wall with vases">
+            <a href="https://unsplash.com/photos/a-white-wall-with-three-white-vases-on-it-6CNB-n29nes"
+                target="_blank">White wall with vases
+            </a>
+        </div>
+    </div>
+
+    <div id="search">
+        <div id="searchResult">
+            <img src="https://plus.unsplash.com/premium_photo-1673913966947-a9e2bf8ddf20?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Gallaxy">
+            <a href="https://unsplash.com/photos/PLkL0bh_lfY" target="_blank">Gallaxy
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1688655046171-286a6025377a?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="Beautiful sunset over water">
+            <a href="https://unsplash.com/photos/a-beautiful-sunset-over-a-body-of-water-ym3PWPfJIRw"
+                target="_blank">Beautiful sunset over water
+            </a>
+        </div>
+        <div id="searchResult">
+            <img src="https://images.unsplash.com/photo-1682686581218-82326951f4ad?ixlib=rb-4.0.3&ixid=
+            M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="Dancing girl in greenery">
+            <a href="https://unsplash.com/photos/0vpBglNUp_s"
+                target="_blank">Dancing girl in greenery
+            </a>
+        </div>
+    </div> -->
+
+    <button id="showMore">Show More</button>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
